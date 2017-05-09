@@ -14,10 +14,8 @@
 		568AC82D1EB6769D004F2B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568AC82B1EB6769D004F2B50 /* LaunchScreen.storyboard */; };
 		568AC8381EB6769D004F2B50 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AC8371EB6769D004F2B50 /* iKidTests.swift */; };
 		568AC8431EB6769D004F2B50 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AC8421EB6769D004F2B50 /* iKidUITests.swift */; };
-		568AC8551EB692E1004F2B50 /* nightstand.png in Resources */ = {isa = PBXBuildFile; fileRef = 568AC8541EB692E1004F2B50 /* nightstand.png */; };
 		568AC8591EB6C734004F2B50 /* GoodJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AC8581EB6C734004F2B50 /* GoodJokeViewController.swift */; };
 		568AC85B1EB6CE4E004F2B50 /* KnockKnockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AC85A1EB6CE4E004F2B50 /* KnockKnockViewController.swift */; };
-		568AC85D1EB6D056004F2B50 /* cows.png in Resources */ = {isa = PBXBuildFile; fileRef = 568AC85C1EB6D056004F2B50 /* cows.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +49,8 @@
 		568AC83E1EB6769D004F2B50 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		568AC8421EB6769D004F2B50 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		568AC8441EB6769D004F2B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		568AC8541EB692E1004F2B50 /* nightstand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nightstand.png; path = ../../../../../Desktop/nightstand.png; sourceTree = "<group>"; };
 		568AC8581EB6C734004F2B50 /* GoodJokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodJokeViewController.swift; sourceTree = "<group>"; };
 		568AC85A1EB6CE4E004F2B50 /* KnockKnockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockKnockViewController.swift; sourceTree = "<group>"; };
-		568AC85C1EB6D056004F2B50 /* cows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cows.png; path = ../../../../../Desktop/cows.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +101,6 @@
 		568AC8211EB6769D004F2B50 /* iKid */ = {
 			isa = PBXGroup;
 			children = (
-				568AC85C1EB6D056004F2B50 /* cows.png */,
-				568AC8541EB692E1004F2B50 /* nightstand.png */,
 				568AC8221EB6769D004F2B50 /* AppDelegate.swift */,
 				568AC8241EB6769D004F2B50 /* ViewController.swift */,
 				568AC8261EB6769D004F2B50 /* Main.storyboard */,
@@ -250,8 +244,6 @@
 				568AC82D1EB6769D004F2B50 /* LaunchScreen.storyboard in Resources */,
 				568AC82A1EB6769D004F2B50 /* Assets.xcassets in Resources */,
 				568AC8281EB6769D004F2B50 /* Main.storyboard in Resources */,
-				568AC8551EB692E1004F2B50 /* nightstand.png in Resources */,
-				568AC85D1EB6D056004F2B50 /* cows.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +526,7 @@
 				568AC8491EB6769D004F2B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568AC84A1EB6769D004F2B50 /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +535,7 @@
 				568AC84C1EB6769D004F2B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568AC84D1EB6769D004F2B50 /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +544,7 @@
 				568AC84F1EB6769D004F2B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
